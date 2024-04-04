@@ -1,6 +1,15 @@
 {
-  "excludeFiles": [],
-  "inputs": {
-    "name": "string"
-  }
+  "ignoreFiles": [],
+  "inputs": [
+    {
+      "name": "applicationName",
+      "type": "string",
+      "defaultValue": "test-application"
+    },
+    {
+      "name": "includeDynamoDb",
+      "type": "boolean",
+      "defaultValue": null
+    }
+  ]
 }
