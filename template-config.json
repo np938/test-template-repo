@@ -6,12 +6,14 @@
     {
       "name": "applicationName",
       "type": "string",
-      "defaultValue": "test-application"
+      "defaultValue": "test-application",
+      "description": "The name of the application"
     },
     {
       "name": "includeDynamoDb",
       "type": "boolean",
-      "defaultValue": true
+      "defaultValue": true,
+      "description": "Whether to include Dynamo DB."
     }
   ]
 }
