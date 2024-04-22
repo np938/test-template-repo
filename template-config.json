@@ -5,13 +5,13 @@
   "inputs": [
     {
       "name": "applicationName",
-      "type": "string",
+      "type": "STRING",
       "defaultValue": "test-application",
       "description": "The name of the application"
     },
     {
       "name": "includeDynamoDb",
-      "type": "boolean",
+      "type": "BOOLEAN",
       "defaultValue": true,
       "description": "Whether to include Dynamo DB."
     }
